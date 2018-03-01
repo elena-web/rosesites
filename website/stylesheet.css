@@ -1,0 +1,11 @@
+/*stylesheet for rosesites.com*/
+
+  html{
+    background-color: black;
+  }
+
+  .center-title{
+    background-color: white;
+    position: fixed;
+    vertical-align: center;
+  }
