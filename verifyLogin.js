@@ -1,4 +1,5 @@
 function checkIfUser(){
+  window.location="login.html";
   if (getCookie("username") == ""){
     window.location.href="login.html";
   }
