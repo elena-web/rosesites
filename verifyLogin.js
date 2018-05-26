@@ -16,12 +16,10 @@ function getCookie(cname) {
 
 function checkCookie() {
     var user = getCookie("username");
-    if (user != "") {
-        alert("Welcome again " + user);
+    if (user = "admin" && password = "pass1234") {
+        window.location.replace("dashboard.html");
     } else {
-        user = prompt("Please enter your name:", "");
-        if (user != "" && user != null) {
-            setCookie("username", user, 365);
+        window.location.replace("login.html");
         }
     }
 }

@@ -12,14 +12,22 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <!-- Latest compiled JavaScript -->
+      <!-- Latest compiled Bootstrap version -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- ACME stylesheet CSS -->
-    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+      <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <!-- External JavaScript -->
+      <script src="createCookie.js"></script>
+      <script src="verifyLogin.js"></script>
     <!-- Title -->
     <title>ACME Nuclear Power Company</title>
   </head>
   <body>
+    <form id="loginForm" action="createLoginCookies.js">
+      Username: <input type="text" name="user"><br>
+      Password: <input type="text" name="pass"><br>
+      <input type="submit" value="Submit">
+    </form>
 
   </body>
 </html>
