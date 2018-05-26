@@ -17,9 +17,9 @@ function getCookie(cname) {
 function checkCookie() {
     var user = getCookie("username");
     if (user = "admin" && password = "pass1234") {
-        window.location.replace("dashboard.html");
+        window.location.replace("/dashboard.html");
     } else {
-        window.location.replace("login.html");
+        window.location.replace("/login.html");
         }
     }
 }
