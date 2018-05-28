@@ -30,16 +30,18 @@
   position: absolute;
   right: 0.5vmin;
   margin-top: 0.5vmin;
-  margin-bottom:0.5vmin;
-  height: 9vmin;
+  margin-bottom: 0.5vmin;
+  max-width: 90%;
+  max-height: 90%;
 }
 
 #company-name {
-  text-align: center;
+  text-align: left;
   color: white;
   width: 100%;
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
+  left: 0.5vmin;
   font-size: 7vmin;
   font-family: Autobus, Arial, sans-serif;
 
