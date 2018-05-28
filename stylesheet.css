@@ -1,0 +1,8 @@
+.hidden-alert {
+  color: red;
+  opacity: 0;
+}
+
+#loginBox {
+  width: 100%;
+}

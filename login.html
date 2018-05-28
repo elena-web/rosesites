@@ -3,7 +3,6 @@
   <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,13 +22,19 @@
     <title>ACME Nuclear Power Company</title>
   </head>
   <body>
-    <form id="loginForm" action="">
-      Username: <input type="text" name="user"><br>
-      Password: <input type="text" name="pass"><br>
-      <input type="submit" value="Submit">
-    </form>
-    <script>createCookie(username, user, 1)</script>
-    <script>createCookie(password, pass, 1)</script>
-
+    <div id="loginBox" class="container-fluid d-flex align-content-center flex-wrap">
+      <p class="hidden-alert">
+        The username or password you entered was incorrect.
+      </p>
+      <p class="hidden-alert" id="emptyBoxAlert">
+        Please enter both a username and a password.
+      </p>
+      <form id="loginForm" action="">
+        Please log in.<br/>
+        <input type="text" name="username-box" placeholder="username" id="user"><br>
+        <input type="text" name="password-box" placeholder="password" id="pass"><br>
+        <input type="submit" value="Submit" onclick="createLoginCookie.js">
+      </form>
+    </div>
   </body>
 </html>

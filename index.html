@@ -3,11 +3,17 @@
   <head>
     <!-- Title -->
     <title>ACME Nuclear Power</title>
+    <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Scripts -->
-      <script type = "text/javascript" src = "verifyLogin.js">
-        checkIfUser();
-        checkCookie();
+      <script type = "text/javascript" src = "verifyLogin.js"></script>
+      <script type = "text/javascript">
+        $(document).ready(function(){
+          checkIfUser();
+          checkCookie();
+        });
       </script>
+
   </head>
   <body>
     <a href="login.html"> aljsdkf </a>
