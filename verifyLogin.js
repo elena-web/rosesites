@@ -1,10 +1,10 @@
 function checkIfUser(){
   window.location="login.html";
   if (getCookie("username") == ""){
-    window.location.href="login.html";
+    window.location="login.html";
   }
   if (getCookie("password") == ""){
-    window.location.href="login.html";
+    window.location="login.html";
   }
 }
 
@@ -28,9 +28,9 @@ function checkCookie() {
     var user = getCookie("username");
     var pass = getCookie("password");
     if (user == "admin" && pass == "pass1234") {
-        window.location.href="dashboard.html";
+        window.location="dashboard.html";
     }
     else {
-        window.location.href="login.html";
+        window.location="login.html";
     }
 }

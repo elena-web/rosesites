@@ -23,7 +23,7 @@ function createLoginCookies(){
 
 function isCorrectLogin(){
   if (user == "admin" && pass == "pass1234"){
-    window.location.href="dash.html";
+    window.location="dash.html";
   }
   else {
     var loginElem = document.getElementById("incorrectLoginAlert");
