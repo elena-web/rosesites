@@ -21,13 +21,23 @@
   </head>
   <body>
     <div class="container-fluid">
+      <div class="row bg-primary header-size">
+        <div class="col-md-6">
+          <h1 id="company-name" class="mx-auto">ACME NUCLEAR POWER</h1>
+        </div>
+        <div class="col-md-6">
+          <img src="images/logo_WHITE.png" alt="" id="logo-image" class="image-responsive align-middle">
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-4"></div>
         <div id="loginBox" class="col-md-4">
-          <p class="hidden bg-danger center-block" id="incorrectLoginAlert">
+          <p class="hidden-alert bg-danger center-block text-center" id="incorrectLoginAlert">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             The username or password you entered was incorrect.
           </p>
-          <p class="hidden bg-warning center-block" id="emptyBoxAlert">
+          <p class="hidden-alert bg-warning center-block text-center" id="emptyBoxAlert">
+            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             Please enter both a username and a password.
           </p>
           <form id="loginForm" action="">

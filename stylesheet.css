@@ -1,5 +1,15 @@
-.hidden{
+@font-face {
+    font-family: Autobus;
+    font-style: normal;
+    font-weight: normal;
+    src: url(fonts/Autobus-Bold.ttf);
+}
+
+.hidden-alert{
   /*visibility: hidden !important;*/
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2vmin;
 }
 
 .center-block {
@@ -14,4 +24,26 @@
 
 #loginForm {
 
+}
+
+#logo-image {
+  position: absolute;
+  right: 0.5vmin;
+  margin-top: 0.5vmin;
+  margin-bottom:0.5vmin;
+  height: 9vmin;
+}
+
+#company-name {
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 0.5vmin;
+  margin-bottom: 0.5vmin;
+  font-size: 7vmin;
+  font-family: Autobus, Arial, sans-serif;
+
+.header-size {
+  height: 10vmin;
+  margin-bottom: 3vmin;
 }
