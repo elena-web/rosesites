@@ -1,8 +1,17 @@
-.hidden-alert {
-  color: red;
-  opacity: 0;
+.hidden{
+  /*visibility: hidden !important;*/
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #loginBox {
-  width: 100%;
+
+}
+
+#loginForm {
+
 }
