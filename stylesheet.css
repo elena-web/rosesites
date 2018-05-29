@@ -40,7 +40,7 @@ body {
 
 #logo-image {
   position: absolute;
-  right: 0.5vmin;
+  text-align: center;
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
   max-width: 5vmin;
@@ -49,7 +49,7 @@ body {
 
 #company-name {
   position: absolute;
-  text-align: center;
+  text-align: right;
   color: white;
   width: 100%;
   margin-top: 0.5vmin;
