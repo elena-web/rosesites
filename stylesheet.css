@@ -26,6 +26,7 @@ body {
 #loginBox {
   padding: 5vmin;
   background-color: white;
+  margin: 1vmin;
 }
 
 #loginForm {
