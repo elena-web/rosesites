@@ -44,13 +44,13 @@
   text-align: center;
   color: white;
   width: 100%;
-  margin-top: 0.75vmin;
+  margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
   /*left: 0.5vmin;*/
   font-size: 7vmin;
   font-family: Autobus, Arial, sans-serif;
 
 .header-size {
-  height: 10vmin;
+  height: 9vmin;
   margin-bottom: 3vmin;
 }
