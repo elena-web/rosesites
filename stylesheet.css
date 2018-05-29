@@ -40,16 +40,14 @@ body {
 
 #logo-image {
   position: absolute;
-  text-align: center;
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
   max-width: 5vmin;
-  max-height: 4vmin;
+  max-height: 5vmin;
 }
 
 #company-name {
   position: absolute;
-  text-align: right;
   color: white;
   width: 100%;
   margin-top: 0.5vmin;
