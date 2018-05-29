@@ -45,7 +45,7 @@
   text-align: center;
   color: white;
   width: 100%;
-  margin-top: 1vmin;
+  margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
   /*left: 0.5vmin;*/
   font-size: 7vmin;
@@ -53,6 +53,6 @@
 }
 
 .header-size {
-  height: 8vmin;
+  max-height: 8vmin;
   margin-bottom: 3vmin;
 }
