@@ -43,8 +43,8 @@ body {
   right: 0.5vmin;
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
-  max-width: 7vmin;
-  max-height: 7vmin;
+  max-width: 5vmin;
+  max-height: 5vmin;
 }
 
 #company-name {
@@ -55,11 +55,12 @@ body {
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
   /*left: 0.5vmin;*/
-  font-size: 7vmin;
+  font-size: 5vmin;
   font-family: Autobus, Arial, sans-serif;
 }
 
 .header-size {
   max-height: 8vmin;
+  height: auto;
   margin-bottom: 3vmin;
 }
