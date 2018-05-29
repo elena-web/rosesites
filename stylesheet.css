@@ -39,7 +39,6 @@ body {
 }
 
 #logo-image {
-  position: absolute;
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
   max-width: 5vmin;
@@ -47,7 +46,6 @@ body {
 }
 
 #company-name {
-  position: absolute;
   color: white;
   width: 100%;
   margin-top: 0.5vmin;
