@@ -27,14 +27,14 @@
         <div class="col-md-3">
           <h1 id="company-name" class="pull-right">
             ACME NUCLEAR POWER
-            <img src="images/logo_WHITE.png" alt="" id="logo-image" class="image-responsive align-top hidden-sm hidden-xs">
+            <img src="images/logo_WHITE.png" alt="" id="logo-image" class="image-responsive align-middle hidden-sm hidden-xs">
           </h1>
         </div>
       </div>
       <!--<div class="row spacer"></div>-->
       <div class="row">
         <div class="col-md-4"></div>
-        <div id="loginBox" class="col-md-4 rounded">
+        <div class="col-md-4">
           <p class="hidden-alert bg-danger center-block text-center rounded" id="incorrectLoginAlert">
             <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             The username or password you entered was incorrect.
@@ -43,12 +43,14 @@
             <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             Please enter both a username and a password.
           </p>
-          <form id="loginForm">
-            <label class="form-group">Please log in.</label>
-            <input type="text" name="username-box" placeholder="username" id="user" class="form-control"><br>
-            <input type="text" name="password-box" placeholder="password" id="pass" class="form-control"><br>
-            <button type="submit" onclick="createLoginCookie.js" class="btn btn-primary">Submit</button>
-          </form>
+          <div id="loginBox" class="rounded">
+            <form id="loginForm">
+              <label class="form-group">Please log in.</label>
+              <input type="text" name="username-box" placeholder="username" id="user" class="form-control"><br>
+              <input type="text" name="password-box" placeholder="password" id="pass" class="form-control"><br>
+              <button type="submit" onclick="createLoginCookie.js" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
         </div>
         <div class="col-md-4"></div>
       </div>

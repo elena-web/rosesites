@@ -16,8 +16,7 @@ function createLoginCookies(){
     setCookie(password, pass, 1);
   }
   else {
-    var emptyElem = document.getElementById("emptyBoxAlert");
-    emptyElem.style.opacity = "100";
+    document.getElementById("emptyBoxAlert").style.visibility= visible;
   }
 }
 
@@ -26,11 +25,16 @@ function isCorrectLogin(){
     window.location="dash.html";
   }
   else {
-    var loginElem = document.getElementById("incorrectLoginAlert");
-    loginElem.style.opacity = "100";
+    document.getElementById("incorrectLoginAlert").style.visibility = visible;
   }
 }
 
+function hideAlerts(){
+  document.getElementById("incorrectLoginAlert").style.vivisibility = hidden;
+  document.getElementById("emptyBoxAlert").style.vivisibility = hidden;
+}
+
+hideAlerts();
 getValues();
 createLoginCookies();
 isCorrectLogin();

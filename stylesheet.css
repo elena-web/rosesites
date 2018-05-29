@@ -16,7 +16,7 @@
 }
 
 .hidden-alert{
-  /*visibility: hidden !important;*/
+  visibility: hidden !important;
   width: 100%;
   box-sizing: border-box;
   padding: 2vmin;
@@ -44,17 +44,16 @@
 }
 
 #logo-image {
-  margin-top: 0.5vmin;
-  margin-bottom: 0.5vmin;
-  max-width: 6vmin;
-  max-height: 6vmin;
+  margin: 1vmin;
+  max-width: 5vmin;
+  max-height: 5vmin;
 }
 
 #company-name {
   text-align: center;
   color: white;
   width: 100%;
-  margin: 0.25vmin;
+  margin: 1vmin;
   font-size: 5vmin;
   font-family: Autobus, Arial, sans-serif;
 }
