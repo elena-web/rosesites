@@ -26,6 +26,11 @@
 
 }
 
+.spacer {
+  height: 5vmin;
+  width: 100%;
+}
+
 #logo-image {
   position: absolute;
   right: 0.5vmin;
