@@ -32,6 +32,7 @@
 }
 
 #logo-image {
+  position: absolute;
   right: 0.5vmin;
   margin-top: 0.5vmin;
   margin-bottom: 0.5vmin;
@@ -43,7 +44,7 @@
   text-align: center;
   color: white;
   width: 100%;
-  margin-top: 0.5vmin;
+  margin-top: 0.75vmin;
   margin-bottom: 0.5vmin;
   /*left: 0.5vmin;*/
   font-size: 7vmin;
