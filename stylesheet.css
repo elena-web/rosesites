@@ -39,7 +39,7 @@
 }
 
 .spacer {
-  height: 10vmin;
+  height: 0vmin;
   width: 100%;
 }
 
@@ -63,6 +63,7 @@
   max-height: 8vmin;
   height: auto;
   margin-bottom: 3vmin;
+  width: 100%;
 }
 
 .full-page {
