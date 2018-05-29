@@ -7,6 +7,11 @@
 
 body {
   background-color: grey;
+  background: rgb(181,189,200); /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 98%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 98%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 98%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
@@ -46,18 +51,21 @@ body {
 }
 
 #company-name {
-  right: 0.5vmin;
   color: white;
   width: 100%;
-  margin-top: 0.5vmin;
-  margin-bottom: 0.5vmin;
-  /*left: 0.5vmin;*/
+  margin: 0.5vmin;
   font-size: 5vmin;
   font-family: Autobus, Arial, sans-serif;
+  right: 0px;
 }
 
 .header-size {
   max-height: 8vmin;
   height: auto;
   margin-bottom: 3vmin;
+}
+
+.full-page {
+  height: 100vh;
+  width: 100vw;
 }
