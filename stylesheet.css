@@ -5,7 +5,7 @@
     src: url(fonts/Autobus-Bold.ttf);
 }
 
-body {
+#background {
   background-color: grey;
   background: rgb(181,189,200); /* Old browsers */
   background: -moz-linear-gradient(45deg, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 98%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
@@ -68,4 +68,8 @@ body {
 .full-page {
   height: 100vh;
   width: 100vw;
+}
+
+.no-scroll {
+  position: fixed;
 }
