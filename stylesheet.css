@@ -5,6 +5,11 @@
     src: url(fonts/Autobus-Bold.ttf);
 }
 
+body {
+  background-color: grey;
+
+}
+
 .hidden-alert{
   /*visibility: hidden !important;*/
   width: 100%;
@@ -20,6 +25,7 @@
 
 #loginBox {
   padding: 5vmin;
+  background-color: white;
 }
 
 #loginForm {
