@@ -29,7 +29,7 @@ function checkCookie() {
     var pass = getCookie("password");
     if (user == "admin" && pass == "pass1234") {
         window.location="dash.html";
-    }
+    } 
     else {
         window.location="login.html";
     }
