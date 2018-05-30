@@ -16,6 +16,7 @@
     <!-- External JavaScript -->
       <script src="createCookie.js"></script>
       <script src="verifyLogin.js"></script>
+      <script src="createLoginCookies.js"></script>
     <!-- Title -->
     <title>ACME Nuclear Power Company</title>
   </head>
@@ -48,7 +49,7 @@
               <label class="form-group">Please log in.</label>
               <input type="text" name="username-box" placeholder="username" id="user" class="form-control"><br>
               <input type="text" name="password-box" placeholder="password" id="pass" class="form-control"><br>
-              <button type="submit" onclick="createLoginCookie.js" class="btn btn-primary">Submit</button>
+              <button type="submit" onclick="doLoginFunctions()" class="btn btn-primary">Submit</button>
             </form>
           </div>
         </div>
