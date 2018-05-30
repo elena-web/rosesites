@@ -33,3 +33,14 @@ function checkCookie() {
         window.location="login.html";
     }
 }
+
+function checkCookieForDash() {
+    var user = getCookie("username");
+    var pass = getCookie("password");
+    if (user == "admin" && pass == "pass1234") {
+        return "";
+    }
+    else {
+        window.location="login.html";
+    }
+}
