@@ -14,8 +14,13 @@
     <!-- External CSS -->
       <link type="text/css" rel="stylesheet" href="stylesheet.css">
     <!-- External JavaScript -->
-      <script src="createCookie.js"></script>
       <script src="verifyLogin.js"></script>
+      <script type = "text/javascript">
+        $(document).ready(function(){
+          checkIfUser();
+          checkCookie();
+        });
+      </script>
     <!-- Title -->
     <title>ACME Nuclear Power Company</title>
   </head>
