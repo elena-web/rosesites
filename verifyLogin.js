@@ -38,7 +38,7 @@ function checkCookieForDash() {
     var user = getCookie("username");
     var pass = getCookie("password");
     if (user == "admin" && pass == "pass1234") {
-        return "";
+        return;
     }
     else {
         window.location="login.html";
