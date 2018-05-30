@@ -24,9 +24,7 @@ function createLoginCookies(){
 }
 
 function isCorrectLogin(){
-  window.alert(user + "  " + pass);
   if ((user == "admin") && (pass == "pass1234")){
-    window.alert("starting if statement");
     window.location="dash.html";
   }
   else {
@@ -45,5 +43,4 @@ function doLoginFunctions(){
   getValues();
   createLoginCookies();
   isCorrectLogin();
-  window.alert("done running js");
 }
