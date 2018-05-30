@@ -24,6 +24,7 @@ function createLoginCookies(){
 }
 
 function isCorrectLogin(){
+  window.alert(user + "  " + pass);
   if ((user == "admin") && (pass == "pass1234")){
     window.location="dash.html";
   }
