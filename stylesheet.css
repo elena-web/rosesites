@@ -64,9 +64,10 @@
   text-align: center;
   color: white;
   width: 100%;
-  max-height: 5vmin;
+  min-height: 5vmin;
+  max-height: 10vmin;
   margin: 1vmin;
-  font-size: auto;
+  font-size: 5vmin;
   font-family: Autobus, Arial, sans-serif;
 }
 
