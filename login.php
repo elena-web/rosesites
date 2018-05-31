@@ -1,10 +1,8 @@
 <?php
-$pageTitle = 'Dashboard';
-include_once "frame.php";
+$pageTitle = 'Login';
+include_once "header.php";
 ?>
   <head>
-    <!-- Title -->
-    <title>Login</title>
   </head>
   <body>
     <div class="container-fluid">

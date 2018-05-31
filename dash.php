@@ -1,11 +1,10 @@
 <?php
 $pageTitle = 'Dashboard';
-include_once "frame.php";
+include_once "header.php";
+include_once "sidebar.php"
 ?>
 
   <head>
-    <!-- Title -->
-    <title>Dashboard</title>
   </head>
   <body>
 
