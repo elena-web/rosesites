@@ -27,7 +27,7 @@ function checkCookie() {
     var user = getCookie("username");
     var pass = getCookie("password");
     if (user == "admin" && pass == "pass1234") {
-        window.location="dash.html";
+        window.location="dash.php";
     }
     else {
         window.location="login.html";

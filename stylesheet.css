@@ -15,8 +15,19 @@
 
 }
 
+.hide-element{
+}
+
+#emptyBoxAlert{
+  display: none;
+}
+
+#incorrectLoginAlert{
+  display: none;
+}
+
 .hidden-alert{
-  display: none !important;
+  display: none;
   width: 100%;
   box-sizing: border-box;
   padding-left: 2vmin;

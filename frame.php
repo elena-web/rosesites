@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <script> console.log("Reached dash.html"); </script>
+<DOCTYPE! html>
+<html lang="en">;
   <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
@@ -24,6 +23,7 @@
       </script>
     <!-- Title -->
     <title>ACME Nuclear Power Company</title>
+    <title><?php echo('ACME NUCLEAR POWER :: '. $pageTitle); ?></title>
   </head>
   <body>
     <div id="background" class="full-page no-scroll"></div>
