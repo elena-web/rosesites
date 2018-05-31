@@ -6,6 +6,7 @@ include_once "header.php";
   </head>
   <body>
     <div class="container-fluid">
+      <div class="spacer"></div>
       <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
