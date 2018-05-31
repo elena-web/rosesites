@@ -28,6 +28,12 @@
   margin-right: auto;
 }
 
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #loginBox {
   padding: 5vmin;
   background-color: white;
@@ -39,24 +45,27 @@
 }
 
 .spacer {
-  height: 0vmin;
+  height: auto;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #logo-image {
-  text-align: right;
   margin: 1vmin;
-  max-width: 4.4vmin;
-  max-height: 4.4vmin;
+  max-height: 6vmin;
+  height: auto;
+  width: auto;
 }
 
 #company-name {
-  text-align: right;
-  right: 0;
+  text-align: center;
   color: white;
   width: 100%;
+  max-height: 5vmin;
   margin: 1vmin;
-  font-size: 5vmin;
+  font-size: auto;
   font-family: Autobus, Arial, sans-serif;
 }
 
