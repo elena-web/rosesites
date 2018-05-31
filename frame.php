@@ -26,11 +26,11 @@
   </head>
   <body>
     <div id="background" class="full-page no-scroll"></div>
-    <div class="container-fluid">
-      <div class="row header-size">
+    <div class="container-fluid center-flex">
+      <div class="row header-size center-flex">
         <div class="col-md-2"></div>
         <div class="col-md-8 center-flex">
-          <span id="company-name" class="">
+          <span id="company-name" class="center-flex">
             ACME NUCLEAR POWER <img src="images/logo_WHITE.png" alt="" id="logo-image" class="image-responsive align-text-bottom hidden-sm hidden-xs" style="height:7vmin;">
           </span>
         </div>
