@@ -1,5 +1,5 @@
 <DOCTYPE! html>
-<html lang="en">;
+<html lang="en">
   <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
@@ -22,7 +22,6 @@
         });
       </script>
     <!-- Title -->
-    <title>ACME Nuclear Power Company</title>
     <title><?php echo('ACME NUCLEAR POWER :: '. $pageTitle); ?></title>
   </head>
   <body>
