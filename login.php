@@ -19,27 +19,10 @@
       <script src="createLoginCookies.js"></script>
       <script src="hideElement.js"></script>
     <!-- Title -->
-    <title>ACME Nuclear Power Company</title>
+    <title>Login</title>
   </head>
   <body>
-    <div id="background" class="full-page no-scroll"></div>
     <div class="container-fluid">
-      <div class="row header-size">
-        <div class="col-md-5"></div>
-        <div class="col-md-2 center-flex">
-          <img src="images/logo_WHITE.png" alt="" id="logo-image" class="image-responsive align-text-bottom hidden-sm hidden-xs">
-        </div>
-        <div class="col-md-5"></div>
-      </div>
-      <div class="row spacer">
-        <div class="col-md-4"></div>
-        <div class="col-md-4 center-flex">
-          <span id="company-name" class="">
-            ACME NUCLEAR POWER
-          </span>
-        </div>
-        <div class="col-md-4"></div>
-      </div>
       <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-4">
