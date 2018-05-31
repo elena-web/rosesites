@@ -59,7 +59,7 @@
 }
 
 .spacer {
-  height: auto;
+  height: 3vmin;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@
 }
 
 .header-size {
-  padding-top: 5vmin;
+  padding-top: 2vmin;
   max-height: 10vmin;
   height: auto;
   margin-bottom: 3vmin;
