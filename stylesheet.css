@@ -45,12 +45,12 @@
 
 #logo-image {
   margin: 1vmin;
-  max-width: 5vmin;
-  max-height: 5vmin;
+  max-width: 4.5vmin;
+  max-height: 4.5vmin;
 }
 
 #company-name {
-  text-align: center;
+  text-align: right;
   color: white;
   width: 100%;
   margin: 1vmin;
