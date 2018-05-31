@@ -69,14 +69,14 @@
   width: 100%;
   min-height: 5vmin;
   max-height: 10vmin;
-  margin: 1vmin;
+  margin-top: 2vmin;
   font-size: 7vmin;
   font-family: Autobus, Arial, sans-serif;
 }
 
 .header-size {
-  padding-top: 2vmin;
-  max-height: 8vmin;
+  padding-top: 5vmin;
+  max-height: 10vmin;
   height: auto;
   margin-bottom: 3vmin;
   width: 100%;
