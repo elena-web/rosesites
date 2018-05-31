@@ -19,7 +19,10 @@
   visibility: hidden !important;
   width: 100%;
   box-sizing: border-box;
-  padding: 2vmin;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+  padding-top: 1vmin;
+  padding-bottom: 1vmin;
 }
 
 .center-block {
