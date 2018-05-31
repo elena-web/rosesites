@@ -16,7 +16,7 @@
 }
 
 .hidden-alert{
-  visibility: hidden !important;
+  display: none !important;
   width: 100%;
   box-sizing: border-box;
   padding-left: 2vmin;
