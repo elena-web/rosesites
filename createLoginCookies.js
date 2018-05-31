@@ -14,7 +14,7 @@ function setCookie(cname, cvalue, exdays) {
 }
 
 function createLoginCookies(){
-  if (user != "" && pass != "") {
+  if (user !== "" && pass !== "") {
     setCookie("username", user, 1);
     setCookie("password", pass, 1);
   }
