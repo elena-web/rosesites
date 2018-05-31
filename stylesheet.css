@@ -54,7 +54,7 @@
 
 #logo-image {
   margin: 1vmin;
-  max-height: 6vmin;
+  max-height: 10vmin;
   height: auto;
   width: auto;
 }
@@ -70,6 +70,7 @@
 }
 
 .header-size {
+  padding-top: 2vmin;
   max-height: 8vmin;
   height: auto;
   margin-bottom: 1vmin;
