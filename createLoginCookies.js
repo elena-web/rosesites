@@ -22,7 +22,7 @@ function createLoginCookies(){
     setCookie("password", pass, 1);
   }
   else {
-    document.getElementById("emptyBoxAlert").style.display= "flex";
+    document.getElementById("emptyBoxAlert").style.display= "block";
   }
 }
 
@@ -34,7 +34,7 @@ function isCorrectLogin(){
     //window.location.assign(https://rosesites.com/dash.html);
   }
   else {
-    document.getElementById("incorrectLoginAlert").style.display = "flex";
+    document.getElementById("incorrectLoginAlert").style.display = "block";
   }
 }
 
