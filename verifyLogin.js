@@ -30,7 +30,7 @@ function checkCookie() {
         window.location="dash.php";
     }
     else {
-        window.location="login.html";
+        window.location="login.php";
     }
 }
 
@@ -38,6 +38,6 @@ function checkCookieForDash() {
     var user = getCookie("username");
     var pass = getCookie("password");
     if (user !== "admin" && pass !== "pass1234") {
-        window.location="login.html";
+        window.location="login.php";
     }
 }
