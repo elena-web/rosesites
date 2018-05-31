@@ -22,7 +22,7 @@ function createLoginCookies(){
     setCookie("password", pass, 1);
   }
   else {
-    //window.location = "login.html";
+    //window.location = "login.php";
     document.getElementById("emptyBoxAlert").style.display= "block";
   }
 }
@@ -30,13 +30,11 @@ function createLoginCookies(){
 function isCorrectLogin(){
   console.log(user + " = username " + pass + " = password");
   if ((user == "admin") && (pass == "pass1234")){
-    //console.log("Inside isCorrectLogin if statement.");
     window.location ="dash.php";
-    //window.location.assign(https://rosesites.com/dash.html);
   }
   else {
     if(document.getElementById("emptyBoxAlert").style.display !== "block"){
-      //window.location = "login.html";
+      //window.location = "login.php";
       document.getElementById("incorrectLoginAlert").style.display = "block";
     }
   }

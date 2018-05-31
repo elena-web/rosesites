@@ -1,9 +1,9 @@
 function checkIfUser(){
   if (getCookie("username") === ""){
-    window.location="login.html";
+    window.location="login.php";
   }
   if (getCookie("password") === ""){
-    window.location="login.html";
+    window.location="login.php";
   }
 }
 
