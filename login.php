@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+$pageTitle = 'Dashboard';
+include_once "frame.php";
+?>
   <head>
-    <!-- Meta tags -->
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- jQuery library -->
-     <script src="jquery-3.3.1.min.js"></script>
-    <!-- Bootstrap -->
-     <link href="css/bootstrap.min.css" rel="stylesheet">
-      <script src="js/bootstrap.min.js"></script>
-    <!-- External CSS -->
-     <link type="text/css" rel="stylesheet" href="stylesheet.css">
-    <!-- External JavaScript -->
-      <script src="createCookie.js"></script>
-      <script src="verifyLogin.js"></script>
-      <script src="createLoginCookies.js"></script>
-      <script src="hideElement.js"></script>
     <!-- Title -->
     <title>Login</title>
   </head>
