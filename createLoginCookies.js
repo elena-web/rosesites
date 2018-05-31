@@ -10,7 +10,10 @@ function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    var cookie = cname + "=" + cvalue + "; " + expires + "; path=/";
+    console.log(cookie);
+    document.cookie = cookie;
+    //document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
 function createLoginCookies(){
@@ -19,28 +22,42 @@ function createLoginCookies(){
     setCookie("password", pass, 1);
   }
   else {
-    document.getElementById("emptyBoxAlert").style.visibility= "visible";
+    document.getElementById("emptyBoxAlert").style.display= "flex";
   }
 }
 
 function isCorrectLogin(){
+  console.log(user + " = username " + pass + " = password");
   if ((user == "admin") && (pass == "pass1234")){
-    window.location="dash.html";
+    //console.log("Inside isCorrectLogin if statement.");
+    window.location ="dash.html";
+    //window.location.assign(https://rosesites.com/dash.html);
   }
   else {
-    document.getElementById("incorrectLoginAlert").style.visibility = "visible";
+    document.getElementById("incorrectLoginAlert").style.display = "flex";
   }
 }
 
 // works
 function hideAlerts(){
-  document.getElementById("incorrectLoginAlert").style.visibility = "hidden";
-  document.getElementById("emptyBoxAlert").style.visibility = "hidden";
+  document.getElementById("incorrectLoginAlert").style.display = "none";
+  document.getElementById("emptyBoxAlert").style.display = "none";
 }
 
 function doLoginFunctions(){
+  console.log("Starting");
+  //window.alert("starting hideAlerts");
   hideAlerts();
+  console.log("Past hideAlerts");
+  //window.alert("starting getValues");
   getValues();
+  //window.alert("starting createLoginCookies");
   createLoginCookies();
+  //window.alert("starting isCorrectLogin");
   isCorrectLogin();
+  console.log("finished");
+}
+
+function dummy(){
+  console.log("Button clicked.");
 }
