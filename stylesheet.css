@@ -44,6 +44,7 @@
 }
 
 #logo-image {
+  text-align: right;
   margin: 1vmin;
   max-width: 4.4vmin;
   max-height: 4.4vmin;
@@ -51,6 +52,7 @@
 
 #company-name {
   text-align: right;
+  right: 0;
   color: white;
   width: 100%;
   margin: 1vmin;
