@@ -5,7 +5,7 @@
   <body>
     <div class="container-fluid h-100">
       <div class="row h-100">
-          <aside class="col-12 col-md-2 p-0 bg-light rounded margin-1">
+          <aside class="col-12 col-md-2 p-0 bg-light rounded margin-2">
               <nav class="navbar navbar-expand navbar-light bg-light flex-md-column flex-row align-items-start py-2 rounded">
                   <div class="collapse navbar-collapse rounded">
                       <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
