@@ -112,6 +112,7 @@
 }
 
 #sidebar-content{
+  justify-content: flex-start;
   padding: 1vmin;
   width: 95%;
   height: 100%;

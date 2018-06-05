@@ -6,7 +6,7 @@
     <div id="frame" class="container-fluid">
       <div class="row">
         <div id="sidebar" class="col-md-2 center-flex">
-          <div id="sidebar-content" class="rounded center-flex">
+          <div id="sidebar-content" class="rounded">
             <ul style="list-style-type:none">
               <li><label>DISTRIBUTED CONTROL SYSTEMS</label></li>
               <li><a href="dash.php">Control Rods</a></li>
