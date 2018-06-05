@@ -107,7 +107,7 @@
 }
 
 #sidebar{
-  background-color: red;
+  /*background-color: red;*/
   height: 83vh;
 }
 
@@ -120,7 +120,7 @@
 }
 
 #content-area{
-  background-color: green;
+  /*background-color: green;*/
   height: 83vh;
 }
 
