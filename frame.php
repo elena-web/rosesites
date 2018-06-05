@@ -7,14 +7,14 @@
       <div class="row">
         <div id="sidebar" class="col-md-2 center-flex">
           <div id="sidebar-content" class="rounded">
-            <ul>
-              <label>DISTRIBUTED CONTROL SYSTEMS</label>
-              <a href="dash.php">Control Rods</a>
-              <a href="dash.php">Condensers</a>
-              <a href="dash.php">Turbines</a>
-              <a href="dash.php">Generator</a>
-              <label>IT SYSTEMS</label>
-              <a href="dash.php">Network Traffic</a>
+            <ul style="list-style-type:none">
+              <li><label>DISTRIBUTED CONTROL SYSTEMS</label></li>
+              <li><a href="dash.php">Control Rods</a></li>
+              <li><a href="dash.php">Condensers</a></li>
+              <li><a href="dash.php">Turbines</a></li>
+              <li><a href="dash.php">Generator</a></li>
+              <li><label>IT SYSTEMS</label></li>
+              <li><a href="dash.php">Network Traffic</a></li>
             </ul>
           </div>
         </div>
