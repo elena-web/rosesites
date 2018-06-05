@@ -8,7 +8,7 @@
         <div id="sidebar" class="col-md-2 center-flex">
           <div id="sidebar-content" class="rounded">
             <ul style="list-style-type:none">
-              <li><label class="menu-label">DISTRIBUTED CONTROL SYSTEMS</label></li>
+              <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
               <li class="hover-list-item"><a href="dash.php">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
               <li class="hover-list-item"><a href="dash.php">Condensers<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
               <li class="hover-list-item"><a href="dash.php">Turbines<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
