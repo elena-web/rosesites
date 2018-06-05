@@ -1,4 +1,4 @@
 function hideElement() {
-  window.location = "login.html";
+  window.location = "login.php";
   document.getElementByClassName("hide-element").style.display = "none";
 }
