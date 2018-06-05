@@ -108,22 +108,22 @@
 
 #sidebar{
   background-color: red;
-  height: 82vh;
+  height: 83vh;
 }
 
 #sidebar-content{
-  width: 90%;
+  width: 95%;
   height: 100%;
   background-color: white;
 }
 
 #content-area{
   background-color: green;
-  height: 82vh;
+  height: 83vh;
 }
 
 #content-area-content{
-  padding-left: 1vmin;
+  padding: 1vmin;
   width: 100%;
   height: 100%;
   background-color: white;
