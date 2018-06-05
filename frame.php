@@ -9,12 +9,12 @@
           <div id="sidebar-content" class="rounded">
             <ul style="list-style-type:none">
               <li><label class="menu-label">DISTRIBUTED CONTROL SYSTEMS</label></li>
-              <li><a href="dash.php">Control Rods</a></li>
-              <li><a href="dash.php">Condensers</a></li>
-              <li><a href="dash.php">Turbines</a></li>
-              <li><a href="dash.php">Generator</a></li>
+              <li class="hover-list-item"><a href="dash.php">Control Rods</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
+              <li class="hover-list-item"><a href="dash.php">Condensers</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
+              <li class="hover-list-item"><a href="dash.php">Turbines</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
+              <li class="hover-list-item"><a href="dash.php">Generator</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
               <li><label class="menu-label"><br/>IT SYSTEMS</label></li>
-              <li><a href="dash.php">Network Traffic</a></li>
+              <li class="hover-list-item"><a href="dash.php">Network Traffic</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
             </ul>
           </div>
         </div>

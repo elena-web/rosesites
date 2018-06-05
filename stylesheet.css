@@ -136,3 +136,11 @@
   font-size: 0.75em;
   font-weight: bold;
 }
+
+.hover-icon {
+  opacity: 0%;
+}
+
+.hover-list-item:hover {
+  opacity: 100%;
+}
