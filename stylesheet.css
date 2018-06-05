@@ -141,6 +141,6 @@
   opacity: 0%;
 }
 
-.hover-list-item:hover {
+.hover-list-item:hover + hover-icon{
   opacity: 100%;
 }
