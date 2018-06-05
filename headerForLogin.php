@@ -18,8 +18,7 @@
       <script src="verifyLogin.js"></script>
       <script type = "text/javascript">
         $(document).ready(function(){
-          //checkIfUser();
-          //checkCookieForLogin();
+          checkCookieForLogin();
         });
       </script>
     <!-- Title -->
