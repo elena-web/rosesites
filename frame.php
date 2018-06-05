@@ -6,7 +6,7 @@
     <div id="frame" class="container-fluid">
       <div class="row">
         <div id="sidebar" class="col-12 col-md-2 center-flex">
-          <nav class="navbar navbar-expand navbar-light bg-light flex-md-column flex-row align-items-start py-2 rounded">
+          <nav class="navbar navbar-expand flex-md-column flex-row align-items-start py-2 rounded">
             <div id="sidebar-content" class="">
               <ul style="list-style-type:none">
                 <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
