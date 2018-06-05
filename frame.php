@@ -9,12 +9,12 @@
           <div id="sidebar-content" class="rounded">
             <ul style="list-style-type:none">
               <li><label class="menu-label">DISTRIBUTED CONTROL SYSTEMS</label></li>
-              <li class="hover-list-item"><a href="dash.php">Control Rods</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
-              <li class="hover-list-item"><a href="dash.php">Condensers</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
-              <li class="hover-list-item"><a href="dash.php">Turbines</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
-              <li class="hover-list-item"><a href="dash.php">Generator</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
+              <li class="hover-list-item"><a href="dash.php">Control Rods<span class="glyphicon glyphicon-chevron-right hover-icon"></span></a></li>
+              <li class="hover-list-item"><a href="dash.php">Condensers<span class="glyphicon glyphicon-chevron-right hover-icon"></span></a></li>
+              <li class="hover-list-item"><a href="dash.php">Turbines<span class="glyphicon glyphicon-chevron-right hover-icon"></span></a></li>
+              <li class="hover-list-item"><a href="dash.php">Generator<span class="glyphicon glyphicon-chevron-right hover-icon"></span></a></li>
               <li><label class="menu-label"><br/>IT SYSTEMS</label></li>
-              <li class="hover-list-item"><a href="dash.php">Network Traffic</a><span class="glyphicon glyphicon-chevron-right hover-icon"></span></li>
+              <li class="hover-list-item"><a href="dash.php">Network Traffic<span class="glyphicon glyphicon-chevron-right hover-icon"></span></a></li>
             </ul>
           </div>
         </div>
