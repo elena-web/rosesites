@@ -112,7 +112,7 @@
 }
 
 #sidebar-content{
-  left: 0;
+  text-align: center;
   justify-content: flex-start;
   padding-top: 1vmin;
   padding-left: 0.5vmin;
@@ -121,6 +121,7 @@
   width: 95%;
   height: 100%;
   background-color: white;
+
 }
 
 #content-area{
