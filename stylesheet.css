@@ -112,6 +112,7 @@
 }
 
 #sidebar-content{
+  left: 0;
   justify-content: flex-start;
   padding-top: 1vmin;
   padding-left: 0.5vmin;
