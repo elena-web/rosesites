@@ -1,7 +1,7 @@
 <?php
 $pageTitle = 'Dashboard';
-include_once "header.php";
-include_once "sidebar.php"
+include_once "headerForDash.php";
+include_once "frame.php";
 ?>
 
   <head>

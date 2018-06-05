@@ -41,3 +41,11 @@ function checkCookieForDash() {
         window.location="login.php";
     }
 }
+
+function checkCookieForLogin() {
+    var user = getCookie("username");
+    var pass = getCookie("password");
+    if (user == "admin" && pass == "pass1234") {
+        window.location="dash.php";
+    }
+}

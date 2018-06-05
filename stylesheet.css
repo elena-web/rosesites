@@ -101,3 +101,17 @@
 .no-scroll {
   position: fixed;
 }
+
+#frame {
+
+}
+
+#sidebar{
+  background-color: red;
+  height: 80vh;
+}
+
+#content-area{
+  background-color: green;
+  height: 80vh;
+}

@@ -18,7 +18,7 @@
       <script type = "text/javascript">
         $(document).ready(function(){
           checkIfUser();
-          checkCookie();
+          checkCookieForLogin();
         });
       </script>
     <!-- Title -->
