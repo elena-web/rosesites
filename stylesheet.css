@@ -130,3 +130,8 @@
   height: 100%;
   background-color: white;
 }
+
+.menu-label {
+  color: grey;
+  font-size: 0.75em;
+}
