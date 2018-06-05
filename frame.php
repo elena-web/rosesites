@@ -7,7 +7,7 @@
       <div class="row">
         <div id="sidebar" class="col-12 col-md-2 center-flex">
           <nav class="navbar navbar-expand navbar-dark bg-dark flex-md-column flex-row align-items-start py-2">
-            <div id="sidebar-content" class="collapse navbar-collapse">
+            <div id="sidebar-content" class="">
               <ul style="list-style-type:none">
                 <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
                 <li class="hover-list-item"><a href="dash.php">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
