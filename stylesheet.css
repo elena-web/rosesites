@@ -118,6 +118,7 @@
 }
 
 #content-area{
+  margin-left: 1vmin;
   background-color: green;
   height: 82vh;
 }
