@@ -14,6 +14,7 @@
     <!-- External CSS -->
       <link type="text/css" rel="stylesheet" href="stylesheet.css">
     <!-- External JavaScript -->
+      <script src="hideElement.js"></script>
       <script src="verifyLogin.js"></script>
       <script type = "text/javascript">
         $(document).ready(function(){
