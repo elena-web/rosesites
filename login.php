@@ -11,11 +11,11 @@ include_once "headerForLogin.php";
         <div class="col-md-4"></div>
         <div class="col-md-4">
           <p class="hidden-alert bg-danger center-flex text-center rounded" id="incorrectLoginAlert">
-            <button type="button" class="close hide-element align-text-bottom" aria-label="Close" onclick="hideElement()"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="glyphicon glyphicon-remove-sign hide-element align-text-bottom" aria-label="Close" onclick="hideElement()"><span aria-hidden="true">&times;</span></button>
             The username or password you entered was incorrect.
           </p>
           <p class="hidden-alert bg-warning center-flex text-center rounded" id="emptyBoxAlert">
-            <button type="button" class="close hide-element align-text-bottom" aria-label="Close" onclick="hideElement()"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="glyphicon glyphicon-remove-sign hide-element align-text-bottom" aria-label="Close" onclick="hideElement()"><span aria-hidden="true">&times;</span></button>
             Please enter both a username and a password.
           </p>
           <div id="loginBox" class="rounded">
