@@ -112,6 +112,8 @@
 }
 
 #sidebar-content{
+  width: 90%;
+  height: 100%;
   background-color: white;
 }
 
@@ -121,5 +123,7 @@
 }
 
 #content-area-content{
+  width: 90%;
+  height: 100%;
   background-color: white;
 }
