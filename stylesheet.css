@@ -113,7 +113,10 @@
 
 #sidebar-content{
   justify-content: flex-start;
-  padding: 1vmin;
+  padding-top: 1vmin;
+  padding-left: 0.5vmin;
+  padding-right: 0.5vmin;
+  padding-bottom: 1vmin;
   width: 95%;
   height: 100%;
   background-color: white;
