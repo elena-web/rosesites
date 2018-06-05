@@ -111,7 +111,15 @@
   height: 80vh;
 }
 
+#sidebar-content{
+  background-color: white;
+}
+
 #content-area{
   background-color: green;
   height: 80vh;
+}
+
+#content-area-content{
+  background-color: white;
 }
