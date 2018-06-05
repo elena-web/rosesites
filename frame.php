@@ -5,9 +5,9 @@
   <body>
     <div id="frame" class="container-fluid">
       <div class="row">
-        <div id="sidebar" class="col-12 col-md-2 center-flex">
+        <div id="sidebar" class="col-12 col-md-2 center-flex rounded">
           <nav class="navbar navbar-expand flex-md-column flex-row align-items-start py-2 rounded">
-            <div id="sidebar-content" class="">
+            <div id="sidebar-content" class="rounded">
               <ul style="list-style-type:none">
                 <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
                 <li class="hover-list-item"><a href="dash.php">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
