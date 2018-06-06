@@ -116,17 +116,19 @@
 }
 
 #sidebar-content{
-  margin-left: -50vmin;
   text-align: left;
   justify-content: flex-start;
   padding-top: 1vmin;
-  padding-left: 0vmin;
-  padding-right: 2vmin;
+  padding-left: 1vmin;
+  padding-right: 1vmin;
   padding-bottom: 1vmin;
   width: 95%;
   height: 100%;
   background-color: white;
+}
 
+#sidebar-content-content{
+  margin-left: -1vmin;
 }
 
 #content-area{
