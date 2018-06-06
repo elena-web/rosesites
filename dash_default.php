@@ -48,5 +48,5 @@
       chart.render();
     }
   </script>
-  <div id="controlRodsChart" width="400" height="400" style="border:1px solid #000000"></div>
+  <div id="controlRodsChart" width="400px" height="400px" style="border:1px solid #000000"></div>
 </div>
