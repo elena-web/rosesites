@@ -23,14 +23,14 @@
             <div id="sidebar-content" class="rounded">
               <div id="sidebar-content-content">
                 <ul style="list-style-type:none" class="justify-content-left">
-                  <li><button onclick="document.getElementById('mainContent').src = 'dash_default.php'">Dashboard Home</button></li>
+                  <li><button onClick="document.getElementById('mainContent').src = 'dash_default.php'">Dashboard Home</button></li>
                   <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
-                  <li class="hover-list-item"><button onclick="document.getElementById('mainContent').src = 'dash_controlRods.php'">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
-                  <li class="hover-list-item"><button onclick="document.getElementById('mainContent').src = 'dash_condensers.php'">Condensers<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
-                  <li class="hover-list-item"><button onclick="document.getElementById('mainContent').src = 'dash_turbines'">Turbines<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
-                  <li class="hover-list-item"><button onclick="document.getElementById('mainContent').src = 'dash_generator.php'">Generator<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
+                  <li class="hover-list-item"><button onClick="document.getElementById('mainContent').src = 'dash_controlRods.php'">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
+                  <li class="hover-list-item"><button onClick="document.getElementById('mainContent').src = 'dash_condensers.php'">Condensers<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
+                  <li class="hover-list-item"><button onClick="document.getElementById('mainContent').src = 'dash_turbines'">Turbines<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
+                  <li class="hover-list-item"><button onClick="document.getElementById('mainContent').src = 'dash_generator.php'">Generator<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
                   <li><label class="menu-label"><br/>IT SYSTEMS</label></li>
-                  <li class="hover-list-item"><buttononclick="document.getElementById('mainContent').src = 'dash_networkTraffic.php'">Network Traffic<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
+                  <li class="hover-list-item"><button onClick="document.getElementById('mainContent').src = 'dash_networkTraffic.php'">Network Traffic<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
                 </ul>
               </div>
             </div>
