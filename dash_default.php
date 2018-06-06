@@ -49,4 +49,6 @@
     }
   </script>
   <canvas id="controlRodsChart" class="my-4 w-100 chartjs-render-monitor" width="600" height="400" style="display:block; border:1px solid #000000"></canvas>
+
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </div>
