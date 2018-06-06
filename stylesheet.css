@@ -119,6 +119,7 @@
   height: 83vh;
   min-width: 180px;
   width: 100%;
+  margin-right: -1vmin;
 }
 
 #sidebar-content{
