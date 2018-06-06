@@ -1,7 +1,6 @@
 <p>This is the Control Rods page<br/></p>
 
 <div style="height:400px; width:400px;">
-  <canvas id="controlRodsChart" width="400" height="400"></canvas>
   <script>
     window.onload = function (){
       var crc = document.getElementById("controlRodsChart");
@@ -48,3 +47,5 @@
       chart.render();
     }
   </script>
+  <div id="controlRodsChart" width="400" height="400"></div>
+</div>
