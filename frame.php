@@ -5,7 +5,7 @@
       $(window).resize(function() {
         console.log("starting");
         var sidebar = document.getElementById("sidebar");
-        console.log(sidebar.width);
+        console.log(sidebar);
         if (sidebar.width < 181){
           document.getElementById("frame").style('flex-direction') = "row";
           const style = window.getComputedStyle(el);
