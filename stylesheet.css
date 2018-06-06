@@ -44,6 +44,9 @@
 
 .flex-container{
   display: flex;
+}
+
+#frame{
   flex-direction: column;
 }
 

@@ -1,6 +1,13 @@
 <DOCTYPE! html>
 <html lang="en">
   <head>
+    <script>
+      $(window).resize(function() {
+        if (window.innerWidth < 768){
+          document.getElementById("frame").style.flex.direction = "row";
+        }
+      });
+    </script>
   </head>
   <body>
     <div id="frame" class="container-fluid container-flex">
