@@ -8,8 +8,8 @@
         <div id="sidebar" class="col-12 col-md-2 rounded">
           <div class="flex-md-column flex-row align-items-start rounded">
             <div id="sidebar-content" class="rounded">
-              <div>
-                <ul style="list-style-type:none" class="justify-content-between">
+              <div id="sidebar-content-content">
+                <ul style="list-style-type:none" class="justify-content-left">
                   <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
                   <li class="hover-list-item"><a href="dash.php">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
                   <li class="hover-list-item"><a href="dash.php">Condensers<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
