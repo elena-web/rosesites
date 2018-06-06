@@ -120,6 +120,8 @@
   min-width: 200px;
   width: 200px;
   margin-right: -4vmin;
+  margin-top: 20px;
+  margin-bottom: 20px;
   max-height: 325px;
   max-width: 300px;
 }
@@ -145,6 +147,8 @@
   /*background-color: green;*/
   height: 83vh;
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #content-area-content{
