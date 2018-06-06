@@ -5,8 +5,12 @@
   <script>
       var ctx = document.getElementById("myChart");
       var myChart = new Chart(ctx, {
-          type: 'bar',
+          type: 'column',
+          animationEnabled: true,
           data: {
+              title:{
+                text: "Control Rod Levels"
+              }
               labels: ["Rod Bundle 1", "Rod Bundle 2", "Rod Bundle 3", "Rod Bundle 4", "Rod Bundle 5", "Rod Bundle 6"],
               datasets: [{
                   label: 'Rod Deployment Level',
