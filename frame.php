@@ -3,6 +3,7 @@
   <head>
     <script>
       $(window).resize(function() {
+        console.log("starting");
         var sidebar = document.getElementById("sidebar");
         if (sidebar.width < 181){
           document.getElementById("frame").style('flex-direction') = "row";
