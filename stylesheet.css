@@ -42,6 +42,10 @@
   margin-right: auto;
 }
 
+.flex-container{
+  display: flex;
+}
+
 .center-flex {
   display: flex;
   justify-content: center;
