@@ -39,7 +39,7 @@
         </div>
         <div id="content-area" class="col center-flex">
           <div id="content-area-content" class="rounded">
-            <iframe name="mainContent" width="100%" height="100%" src="dash_default.php" frameBorder="0">
+            <iframe id="mainContent" width="100%" height="100%" src="dash_default.php" frameBorder="0">
           </div>
         </div>
       </div>
