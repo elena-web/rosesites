@@ -121,6 +121,7 @@
   width: 100%;
   margin-right: -3vmin;
   max-height: 325px;
+  max-width: 300px;
 }
 
 #sidebar-content{
