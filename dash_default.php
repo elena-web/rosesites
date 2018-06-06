@@ -10,7 +10,7 @@
           animationEnabled: true,
           data: {
               title:{
-                text: "Control Rod Levels",
+                text: "Control Rod Levels"
               }
               labels: ["Rod Bundle 1", "Rod Bundle 2", "Rod Bundle 3", "Rod Bundle 4", "Rod Bundle 5", "Rod Bundle 6"],
               datasets: [{
@@ -32,21 +32,21 @@
                       'rgba(255,99,132,1)',
                       'rgba(255,99,132,1)'
                   ],
-                  borderWidth: 3,
-              }],
+                  borderWidth: 3
+              }]
           },
           options: {
               scales: {
                   yAxes: [{
                       ticks: {
-                          beginAtZero:true,
-                      },
-                  }],
-              },
-          },
+                          beginAtZero:true
+                      }
+                  }]
+              }
+          }
       });
       chart.render();
     }
   </script>
-  <div id="controlRodsChart" class="my-4 w-100" width="400" height="400" style="border:1px solid #000000"></div>
+  <canvas id="controlRodsChart" class="my-4 w-100" width="400" height="400" style="border:1px solid #000000"></canvas>
 </div>
