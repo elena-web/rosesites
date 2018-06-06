@@ -48,5 +48,5 @@
       chart.render();
     }
   </script>
-  <canvas id="controlRodsChart" class="my-4 w-100" width="600" height="400" style="border:1px solid #000000"></canvas>
+  <canvas id="controlRodsChart" class="my-4 w-100 chartjs-render-monitor" width="600" height="400" style="display:block; border:1px solid #000000"></canvas>
 </div>
