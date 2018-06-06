@@ -124,7 +124,7 @@
   text-align: left;
   justify-content: flex-start;
   padding-top: 1vmin;
-  padding-left: 1vmin;
+  padding-left: 2vmin;
   padding-right: 2vmin;
   padding-bottom: 1vmin;
   width: 95%;
@@ -135,7 +135,6 @@
 #sidebar-content-content{
   text-align: left;
   justify-content: flex-start;
-  left: 0;
 }
 
 #content-area{
