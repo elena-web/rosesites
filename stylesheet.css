@@ -117,7 +117,7 @@
 #sidebar{
   /*background-color: red;*/
   height: 83vh;
-  min-width: 10vw;
+  min-width: 50px;
 }
 
 #sidebar-content{
