@@ -37,6 +37,9 @@
         </div>
         <div id="content-area" class="col center-flex">
           <div id="content-area-content" class="rounded">
+            <?php
+            include_once "dash_generator.php";
+            ?>
           </div>
         </div>
       </div>
