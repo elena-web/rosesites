@@ -167,3 +167,7 @@
 a {
   color: black;
 }
+
+ul {
+  border: 0;
+}
