@@ -128,7 +128,9 @@
 }
 
 #sidebar-content-content{
-  margin-left: -5vmin;
+  text-align: left;
+  justify-content: flex-start;
+  left: 0;
 }
 
 #content-area{
