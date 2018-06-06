@@ -9,9 +9,10 @@
 
     <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
       <!-- jQuery -->
       <script src="jquery-3.3.1.min.js"></script>
-      
+
       <script src="js/bootstrap.min.js"></script>
     <!-- External CSS -->
       <link type="text/css" rel="stylesheet" href="stylesheet.css">
