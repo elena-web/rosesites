@@ -1,6 +1,6 @@
     <div id="frame" class="container-fluid container-flex">
       <div class="row">
-        <div id="sidebar" class="col-12 col-md-2 rounded">
+        <div id="sidebar" class="col-12 col-md-2">
           <div class="flex-md-column flex-row align-items-start rounded">
             <div id="sidebar-content" class="rounded">
               <div id="sidebar-content-content">

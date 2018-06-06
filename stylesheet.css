@@ -115,7 +115,7 @@
 }
 
 #sidebar{
-  background-color: red;
+  /*background-color: red;*/
   height: 83vh;
   min-width: 180px;
   width: 100%;
@@ -140,7 +140,7 @@
 }
 
 #content-area{
-  background-color: green;
+  /*background-color: green;*/
   height: 83vh;
   width: 100%;
 }
