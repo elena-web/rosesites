@@ -1,10 +1,11 @@
 <p>This is the Control Rods page<br/></p>
 
 <div style="height:400px; width:400px;">
-  <canvas id="myChart" width="400" height="400"></canvas>
+  <canvas id="controlRodsChart" width="400" height="400"></canvas>
   <script>
-      var ctx = document.getElementById("myChart");
-      var myChart = new Chart(ctx, {
+    window.onload = function (){
+      var crc = document.getElementById("controlRodsChart");
+      var crChart = new Chart(crc, {
           type: 'column',
           animationEnabled: true,
           data: {
@@ -44,4 +45,5 @@
               }
           }
       });
+    }
   </script>
