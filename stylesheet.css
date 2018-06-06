@@ -116,10 +116,11 @@
 }
 
 #sidebar-content{
+  margin-left: -1vmin;
   text-align: left;
   justify-content: flex-start;
   padding-top: 1vmin;
-  padding-left: -1vmin;
+  padding-left: 0vmin;
   padding-right: 2vmin;
   padding-bottom: 1vmin;
   width: 95%;
