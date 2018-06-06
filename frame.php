@@ -1,6 +1,13 @@
 <DOCTYPE! html>
 <html lang="en">
   <head>
+    <script>
+      $(document).ready(function() {
+        $('[data-toggle=offcanvas]').click(function() {
+            $('.row-offcanvas').toggleClass('active');
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="row row-offcanvas row-offcanvas-left">
