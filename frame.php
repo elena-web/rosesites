@@ -1,22 +1,3 @@
-<DOCTYPE! html>
-<html lang="en">
-  <head>
-    <script>
-      /*$(window).resize(function() {
-        console.log("starting");
-        var sidebar = document.getElementById("sidebar");
-        console.log(sidebar);
-        if (sidebar.width < 181){
-          document.getElementById("frame").style('flex-direction') = "row";
-          const style = window.getComputedStyle(el);
-          console.log(style.setPropertyValue('flex-direction')); // using the method
-          console.log(style.flexDirection); // accessing the property
-        }
-      });*/
-    </script>
-    <script type="text/javascript" src="test.js"></script>
-  </head>
-  <body>
     <div id="frame" class="container-fluid container-flex">
       <div class="row">
         <div id="sidebar" class="col-12 col-md-2 rounded">
@@ -44,5 +25,3 @@
         </div>
       </div>
     </div>
-  </body>
-</html>

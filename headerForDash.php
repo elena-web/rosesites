@@ -21,6 +21,7 @@
           checkCookieForDash();
         });
       </script>
+      <script type="text/javascript" src="test.js"></script>
     <!-- Title -->
     <title><?php echo('ACME NUCLEAR POWER :: '. $pageTitle); ?></title>
   </head>
@@ -44,5 +45,6 @@
         <div class="col-md-5"></div>
       </div>-->
     </div>
+    <?php include_once "frame.php"; ?>
   </body>
 </html>
