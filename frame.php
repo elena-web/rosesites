@@ -8,7 +8,7 @@
                   <li><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_default.php'">Dashboard Home</button></li>
                   <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick=" changeWindow()">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
-                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_condensers.php'">Condensers<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_condensers.php'">Condensers<span class="glyphicon glyphicon-menu-right"></span></button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_turbines.php'">Turbines<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_generator.php'">Generator<span class="glyphicon glyphicon-menu-right hover-icon"></span></button></li>
                   <li><label class="menu-label"><br/>IT SYSTEMS</label></li>
