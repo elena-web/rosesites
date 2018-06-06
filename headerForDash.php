@@ -6,10 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- jQuery -->
-    <script src="jquery-3.3.1.min.js"></script>
+
     <!-- Bootstrap -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- jQuery -->
+      <script src="jquery-3.3.1.min.js"></script>
+      
       <script src="js/bootstrap.min.js"></script>
     <!-- External CSS -->
       <link type="text/css" rel="stylesheet" href="stylesheet.css">
