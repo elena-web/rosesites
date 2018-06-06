@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <script>
-      $(window).resize(function() {
+      /*$(window).resize(function() {
         console.log("starting");
         var sidebar = document.getElementById("sidebar");
         console.log(sidebar);
@@ -12,7 +12,7 @@
           console.log(style.setPropertyValue('flex-direction')); // using the method
           console.log(style.flexDirection); // accessing the property
         }
-      });
+      });*/
     </script>
   </head>
   <body>

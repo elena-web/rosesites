@@ -163,3 +163,7 @@
 .hover-list-item:hover + hover-icon{
   opacity: 100%;
 }
+
+a {
+  color: black;
+}
