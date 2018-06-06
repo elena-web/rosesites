@@ -1,43 +1,30 @@
 <DOCTYPE! html>
 <html lang="en">
   <head>
-    <script>
-      $(document).ready(function() {
-        $('[data-toggle=offcanvas]').click(function() {
-            $('.row-offcanvas').toggleClass('active');
-        });
-      });
-    </script>
   </head>
   <body>
-    <div class="row row-offcanvas row-offcanvas-left">
-      <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-        <div class="sidebar-nav">
-          <ul class="nav">
-            <li class="active"><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li class="nav-divider"></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li class="nav-divider"></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
+    <div id="frame" class="container-fluid">
+      <div class="row">
+        <div id="sidebar" class="col-12 col-md-2 center-flex rounded">
+          <nav class="navbar navbar-expand flex-md-column flex-row align-items-start py-2 rounded">
+            <div id="sidebar-content" class="rounded">
+              <ul style="list-style-type:none" class="justify-content-between">
+                <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
+                <li class="hover-list-item"><a href="dash.php">Control Rods<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
+                <li class="hover-list-item"><a href="dash.php">Condensers<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
+                <li class="hover-list-item"><a href="dash.php">Turbines<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
+                <li class="hover-list-item"><a href="dash.php">Generator<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
+                <li><label class="menu-label"><br/>IT SYSTEMS</label></li>
+                <li class="hover-list-item"><a href="dash.php">Network Traffic<span class="glyphicon glyphicon-menu-right hover-icon"></span></a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
-        <!--/.well -->
+        <div id="content-area" class="col py-3 center-flex">
+          <div id="content-area-content" class="rounded">
+          </div>
+        </div>
       </div>
-      <!--/span-->
-
-
-
-      <footer>
-        <p>© Company 2013</p>
-      </footer>
     </div>
-    <!--/.container-->
-
-
   </body>
 </html>

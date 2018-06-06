@@ -102,47 +102,50 @@
   position: fixed;
 }
 
-@import url("https://bootswatch.com/flatly/bootstrap.min.css");
+#frame {
 
-body {
-  padding-top: 50px;
-}
-footer {
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
-/*
- * Off Canvas
- * --------------------------------------------------
- */
-@media screen and (max-width: 768px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-    background:#ecf0f1;
-  }
-
-  .row-offcanvas-left
-  .sidebar-offcanvas {
-    left: -40%;
-  }
-
-  .row-offcanvas-left.active {
-    left: 40%;
-  }
-
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 40%;
-    margin-left: 12px;
-  }
+#sidebar{
+  /*background-color: red;*/
+  height: 83vh;
 }
 
-#sidebar {
-    padding:15px;
-    margin-top:10px;
+#sidebar-content{
+  text-align: left;
+  justify-content: flex-start;
+  padding-top: 1vmin;
+  padding-left: 0vmin;
+  padding-right: 2vmin;
+  padding-bottom: 1vmin;
+  width: 95%;
+  height: 100%;
+  background-color: white;
+
+}
+
+#content-area{
+  /*background-color: green;*/
+  height: 83vh;
+}
+
+#content-area-content{
+  padding: 1vmin;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.menu-label {
+  color: grey;
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.hover-icon {
+  opacity: 100%;
+}
+
+.hover-list-item:hover + hover-icon{
+  opacity: 100%;
 }
