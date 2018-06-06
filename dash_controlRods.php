@@ -45,5 +45,6 @@
               }
           }
       });
+      chart.render();
     }
   </script>
