@@ -3,9 +3,9 @@
   <head>
     <script>
       $(window).resize(function() {
-        if (window.innerWidth < 768){
+        var el = document.getElementById("frame");
+        if (el.width < 181){
           //document.getElementById("frame").style('flex-direction') = "row";
-          const el = document.getElementById("frame");
           const style = window.getComputedStyle(el);
           console.log(style.setPropertyValue('flex-direction')); // using the method
           console.log(style.flexDirection); // accessing the property
