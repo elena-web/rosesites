@@ -118,6 +118,7 @@
   background-color: red;
   height: 83vh;
   min-width: 180px;
+  width: 100%;
 }
 
 #sidebar-content{
