@@ -5,7 +5,7 @@
   <script>
     window.onload = function (){
       var crc = document.getElementById("controlRodsChart");
-      var crChart = new Chart(crc, {
+      var crChart = new CanvasJS.Chart(crc, {
           type: 'column',
           animationEnabled: true,
           data: {
