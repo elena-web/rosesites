@@ -120,12 +120,11 @@
   justify-content: flex-start;
   padding-top: 1vmin;
   padding-left: 1vmin;
-  padding-right: 4vmin;
+  padding-right: 2vmin;
   padding-bottom: 1vmin;
   width: 95%;
   height: 100%;
   background-color: white;
-  margin-left: -4vmin;
 }
 
 #sidebar-content-content{
