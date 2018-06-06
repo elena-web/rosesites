@@ -1,6 +1,3 @@
-<DOCTYPE! html>
-<html lang="en">
-  <head>
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -27,8 +24,7 @@
       <script type="text/javascript" src="test.js"></script>
     <!-- Title -->
     <title><?php echo('ACME NUCLEAR POWER :: '. $pageTitle); ?></title>
-  </head>
-  <body>
+
     <div id="background" class="full-page no-scroll"></div>
     <div class="container-fluid center-flex">
       <div class="row header-size center-flex">
@@ -49,5 +45,4 @@
       </div>-->
     </div>
     <?php include_once "frame.php"; ?>
-  </body>
-</html>
+    
