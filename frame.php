@@ -6,7 +6,7 @@
     <div id="frame" class="container-fluid container-flex">
       <div class="row">
         <div id="sidebar" class="col-12 col-md-2 center-flex rounded">
-          <div class="navbar navbar-expand flex-md-column flex-row align-items-start py-2 rounded">
+          <div class="flex-md-column flex-row align-items-start rounded">
             <div id="sidebar-content" class="rounded">
               <ul style="list-style-type:none" class="justify-content-between">
                 <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
@@ -20,7 +20,7 @@
             </div>
           </div>
         </div>
-        <div id="content-area" class="col py-3 center-flex">
+        <div id="content-area" class="col center-flex">
           <div id="content-area-content" class="rounded">
           </div>
         </div>
