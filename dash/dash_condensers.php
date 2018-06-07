@@ -21,6 +21,7 @@
           data: {
               labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
               datasets: [{
+                  label: 'Condensers In Use'
                   data: [2, 4, 3, 6, 1, 2, 5],
                   lineTension: 0,
                   backgroundColor: 'transparent',
