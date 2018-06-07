@@ -18,28 +18,28 @@
       var myChart = new Chart(ctx, {
           type: 'bar',
           title:{
-		        text: "Control Rods"
+		        text: "Pump - Reactor Cooling"
 	        },
           data: {
-              labels: ["Rod Bundle 1", "Rod Bundle 2", "Rod Bundle 3", "Rod Bundle 4", "Rod Bundle 5", "Rod Bundle 6"],
+              labels: ["Pump 1", "Pump 2", "Pump 3", "Pump 4", "Pump 5", "Pump 6"],
               datasets: [{
-                  label: 'Rod Deployment Level',
-                  data: [15, 2, 10, 9, 1, 6],
+                  label: 'Flow Levels',
+                  data: [3400, 4500, 4200, 5000, 5600, 5100],
                   backgroundColor: [
-                      'rgba(66, 244, 89, 0.2)',
-                      'rgba(66, 244, 89, 0.2)',
-                      'rgba(66, 244, 89, 0.2)',
-                      'rgba(66, 244, 89, 0.2)',
-                      'rgba(66, 244, 89, 0.2)',
-                      'rgba(66, 244, 89, 0.2)'
+                      'rgba(0, 255, 255, 0.2)',
+                      'rgba(0, 255, 255, 0.2)',
+                      'rgba(0, 255, 255, 0.2)',
+                      'rgba(0, 255, 255, 0.2)',
+                      'rgba(0, 255, 255, 0.2)',
+                      'rgba(0, 255, 255, 0.2)'
                   ],
                   borderColor: [
-                      'rgba(66, 244, 89, 1)',
-                      'rgba(66, 244, 89, 1)',
-                      'rgba(66, 244, 89, 1)',
-                      'rgba(66, 244, 89, 1)',
-                      'rgba(66, 244, 89, 1)',
-                      'rgba(66, 244, 89, 1)'
+                      'rgba(0, 255, 255, 1)',
+                      'rgba(0, 255, 255, 1)',
+                      'rgba(0, 255, 255, 1)',
+                      'rgba(0, 255, 255, 1)',
+                      'rgba(0, 255, 255, 1)',
+                      'rgba(0, 255, 255, 1)'
                   ],
                   borderWidth: 3
               }]
