@@ -8,7 +8,6 @@ window.onload = function () {
 
 var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
-	theme: "light1", // "light1", "light2", "dark1", "dark2"
 	title:{
 		text: "Control Rod Levels"
 	},
@@ -17,7 +16,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	},
 	data: [{
 		type: "column",
-		showInLegend: true,
+		showInLegend: false,
 		dataPoints: [
 			{ y: 12, label: "Rod Bundle 1" },
 			{ y: 19,  label: "Rod Bundle 2" },
@@ -26,6 +25,23 @@ var chart = new CanvasJS.Chart("chartContainer", {
 			{ y: 2,  label: "Rod Bundle 5" },
 			{ y: 3, label: "Rod Bundle 6" },
 		]
+    backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 99, 132, 0.2)'
+    ],
+    borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(255,99,132,1)',
+        'rgba(255,99,132,1)',
+        'rgba(255,99,132,1)',
+        'rgba(255,99,132,1)',
+        'rgba(255,99,132,1)'
+    ],
+    borderWidth: 3
 	}]
 });
 chart.render();
