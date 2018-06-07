@@ -12,7 +12,7 @@
 
 
 <div style="height:380px; width:900px;">
-  <canvas id="myChart" width="400" height="400"></canvas>
+  <canvas id="myChart" width="900" height="380"></canvas>
   <script>
       var ctx = document.getElementById("myChart");
       var myChart = new Chart(ctx, {
@@ -20,7 +20,6 @@
           data: {
               labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
               datasets: [{
-                  label: 'Rod Deployment Level',
                   data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
                   lineTension: 0,
                   backgroundColor: 'transparent',

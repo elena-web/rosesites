@@ -6,7 +6,7 @@
               <div id="sidebar-content-content">
                 <ul style="list-style-type:none" class="justify-content-left">
                   <li><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_default.php'">Dashboard Home</button></li>
-                  <li><label class="menu-label">DISTRIBUTED CONTROL SYS</label></li>
+                  <li><label class="menu-label">INDUSTRIAL CONTROL SYS</label></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_controlRods.php'">Control Rods</button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_condensers.php'">Condensers</button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_turbines.php'">Turbines</button></li>
