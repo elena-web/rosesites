@@ -61,6 +61,7 @@
                   yAxes: [{
                       ticks: {
                           beginAtZero:false
+                        }
                   }]
               }
           }
