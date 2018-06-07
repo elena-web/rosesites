@@ -24,7 +24,7 @@
               labels: ["Generator 1", "Generator 2", "Generator 3", "Generator 4", "Generator 5", "Generator 6"],
               datasets: [{
                   label: 'Power Production (KW)',
-                  data: [5000, 4500, 5600, 3400, 4400, 5100],
+                  data: [4500, 3400, 5000, 5100, 5600, 4200],
                   backgroundColor: [
                       'rgba(153, 255, 51, 0.2)',
                       'rgba(153, 255, 51, 0.2)',
@@ -48,7 +48,7 @@
               scales: {
                   yAxes: [{
                       ticks: {
-                          beginAtZero:true
+                          beginAtZero:false
                       }
                   }]
               }
