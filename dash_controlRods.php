@@ -8,27 +8,23 @@ window.onload = function () {
 
 var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
-	theme: "light2", // "light1", "light2", "dark1", "dark2"
+	theme: "light1", // "light1", "light2", "dark1", "dark2"
 	title:{
-		text: "Top Oil Reserves"
+		text: "Control Rod Levels"
 	},
 	axisY: {
-		title: "Reserves(MMbbl)"
+		title: ""
 	},
 	data: [{
 		type: "column",
 		showInLegend: true,
-		legendMarkerColor: "grey",
-		legendText: "MMbbl = one million barrels",
 		dataPoints: [
-			{ y: 300878, label: "Venezuela" },
-			{ y: 266455,  label: "Saudi" },
-			{ y: 169709,  label: "Canada" },
-			{ y: 158400,  label: "Iran" },
-			{ y: 142503,  label: "Iraq" },
-			{ y: 101500, label: "Kuwait" },
-			{ y: 97800,  label: "UAE" },
-			{ y: 80000,  label: "Russia" }
+			{ y: 12, label: "Rod Bundle 1" },
+			{ y: 19,  label: "Rod Bundle 2" },
+			{ y: 3,  label: "Rod Bundle 3" },
+			{ y: 5,  label: "Rod Bundle 4" },
+			{ y: 2,  label: "Rod Bundle 5" },
+			{ y: 3, label: "Rod Bundle 6" },
 		]
 	}]
 });
