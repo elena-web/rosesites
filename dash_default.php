@@ -11,10 +11,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
 
 
-<div class="center-flex" style="height:300px; width:100%; margin-bottom:4vmin; padding-bottom:4vmin;">
+<div class="center-flex" style="height:300px; width:100%; margin-bottom:8vmin; padding-bottom:8vmin;">
   <canvas id="myChart" width="900" height="300"></canvas>
 </div>
-<div class="center-flex" style="width:100%; margin-top:4vmin; padding-top:4vmin;">
+<div style="height:10vmin;"></div>
+<div class="center-flex" style="width:100%; margin-top:8vmin; padding-top:8vmin;">
   <h2>Section title</h2>
   <div class="table-responsive">
     <table class="table table-striped table-sm">
