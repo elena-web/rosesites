@@ -136,13 +136,13 @@
 
 #sidebar{
   /*background-color: red;*/
-  height: 83vh;
+  /*height: 83vh;*/
   min-width: 200px;
   width: 200px;
   margin-right: -4vmin;
   margin-top: 5px;
   margin-bottom: 5px;
-  max-height: 600px;
+  height: 600px;
   max-width: 300px;
 }
 
