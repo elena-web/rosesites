@@ -11,8 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
 
 
-<div class="center-flex" style="height:400px; width:100%; margin-bottom:2vmin;">
-  <canvas id="myChart" width="900" height="400"></canvas>
+<div class="center-flex" style="height:300px; width:100%; margin-bottom:2vmin;">
+  <canvas id="myChart" width="900" height="300"></canvas>
 </div>
 <div class="center-flex" style="width:100%; margin-top:2vmin;">
   <h2>Section title</h2>
