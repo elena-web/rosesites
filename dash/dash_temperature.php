@@ -21,7 +21,7 @@
 		        text: "Control Rods"
 	        },
           data: {
-              labels: ["Tank 1", "Tank 2", "Tank 3", "Tank 4", "Tank 5", "Tank 6". "Tank 7", "Tank 8", "Tank 9", "Tank 10", "Tank 11", "Tank 12"],
+              labels: ["Tank 1", "Tank 2", "Tank 3", "Tank 4", "Tank 5", "Tank 6", "Tank 7", "Tank 8", "Tank 9", "Tank 10", "Tank 11", "Tank 12"],
               datasets: [{
                   label: 'Degrees Fahrenheit',
                   data: [527, 529, 550, 493, 599, 568, 520, 533, 604, 595, 569, 577],
