@@ -18,19 +18,16 @@
       var myChart = new Chart(ctx, {
           type: 'line',
           data: {
-              labels: ["Rod Bundle 1", "Rod Bundle 2", "Rod Bundle 3", "Rod Bundle 4", "Rod Bundle 5", "Rod Bundle 6"],
+              labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
               datasets: [{
                   label: 'Rod Deployment Level',
-                  data: [12, 19, 3, 5, 2, 3],
-                  borderColor: [
-                      'rgba(51,153,255,1)',
-                      'rgba(51,153,255,1)',
-                      'rgba(51,153,255,1)',
-                      'rgba(51,153,255,1)',
-                      'rgba(51,153,255,1)',
-                      'rgba(51,153,255,1)'
-                  ],
-                  borderWidth: 3
+                  data: [12, 19, 3, 5, 2, 3, 7],
+                  lineTension: 0,
+                  backgroundColor: 'transparent',
+                  borderColor: '#007bff',
+                  borderWidth: 4,
+                  pointBackgroundColor: '#007bff'
+
               }]
           },
           options: {
