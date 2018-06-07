@@ -18,6 +18,7 @@
       var myChart = new Chart(ctx, {
           type: 'bar',
           title:{
+            display: true,
 		        text: "Uranium Fuel Rods"
 	        },
           data: {
