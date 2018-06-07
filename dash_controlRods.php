@@ -17,6 +17,9 @@
       var ctx = document.getElementById("myChart");
       var myChart = new Chart(ctx, {
           type: 'bar',
+          title:{
+		        text: "Control Rods"
+	        },
           data: {
               labels: ["Rod Bundle 1", "Rod Bundle 2", "Rod Bundle 3", "Rod Bundle 4", "Rod Bundle 5", "Rod Bundle 6"],
               datasets: [{
