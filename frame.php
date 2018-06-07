@@ -7,10 +7,16 @@
                 <ul style="list-style-type:none" class="justify-content-left">
                   <li><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_default.php'">Dashboard Home</button></li>
                   <li><label class="menu-label">INDUSTRIAL CONTROL SYS</label></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_fuelRods.php'">Uranium Fuel Rods</button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_controlRods.php'">Control Rods</button></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_temperature.php'">Water Temperature</button></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_pressurizer.php'">Pressurizer</button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_condensers.php'">Condensers</button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_turbines.php'">Turbines</button></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_generator.php'">Generator</button></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_pumpGenerator.php'">Pump - Generator</button></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_pumpReactorCooling.php'">Pump - Reactor Cooling</button></li>
+                  <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_pressureGaugeReactor.php'">Pressure Gauge - Reactor</button></li>
                   <li><label class="menu-label"><br/>IT SYSTEMS</label></li>
                   <li class="hover-list-item"><button class="btn btn-link" onclick="document.getElementById('mainContent').src = 'dash_networkTraffic.php'">Network Traffic</button></li>
                 </ul>
