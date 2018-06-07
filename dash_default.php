@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
 
 
-<div style="height:380px; width:900px;">
+<div class="center-flex" style="height:380px; width:100%;">
   <canvas id="myChart" width="900" height="380"></canvas>
   <script>
       var ctx = document.getElementById("myChart");
