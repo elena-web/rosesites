@@ -14,7 +14,7 @@
 <div class="center-flex" style="height:300px; width:100%; margin-bottom:8vmin; padding-bottom:8vmin;">
   <canvas id="myChart" width="900" height="300"></canvas>
 </div>
-<div style="height:10vmin;"></div>
+<div style="height:5vmin;"></div>
 <div class="center-flex" style="width:100%; margin-top:8vmin; padding-top:8vmin;">
   <h2>Section title</h2>
   <div class="table-responsive">
