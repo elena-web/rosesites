@@ -21,9 +21,9 @@
 		        text: "Pump - Generator"
 	        },
           data: {
-              labels: ["Generator 1", "Generator 2", "Generator 3", "Generator 4", "Generator 5", "Generator 6"],
+              labels: ["Pump 1", "Pump 2", "Pump 3", "Pump 4", "Pump 5", "Pump 6"],
               datasets: [{
-                  label: 'Power Production (KW)',
+                  label: 'Flow Levels',
                   data: [4500, 3400, 5000, 5100, 5600, 4200],
                   backgroundColor: [
                       'rgba(153, 255, 51, 0.2)',
