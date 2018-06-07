@@ -21,7 +21,7 @@
               labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
               datasets: [{
                   label: 'Rod Deployment Level',
-                  data: [12, 19, 3, 5, 2, 3, 7],
+                  data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
                   lineTension: 0,
                   backgroundColor: 'transparent',
                   borderColor: '#007bff',
@@ -34,7 +34,7 @@
               scales: {
                   yAxes: [{
                       ticks: {
-                          beginAtZero:true
+                          beginAtZero:false
                       }
                   }]
               }
