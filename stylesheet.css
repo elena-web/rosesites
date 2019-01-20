@@ -1,6 +1,7 @@
 .spacer {
   display: block;
   height: 10vh;
+  top: 0;
 }
 
 .center-block {
