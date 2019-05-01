@@ -7,4 +7,5 @@ $james = 'james';
 
 $shoes = "james' shoes";
 var_dump($shoes);
+echo $shoes;
 ?>
