@@ -5,5 +5,5 @@ var_dump($eli === $michael);
 
 $james = 'james';
 
-$shoes = """james' shoes""";
+$shoes = """james\' shoes""";
 ?>
